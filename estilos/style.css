@@ -1,0 +1,530 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor1: #0D0C0C;
+    --cor2: #0F1116;
+    --cor3: #26282F;
+    --corbacksite: #161922;
+    --corfon1: white;
+    --corfon2: #03A1D9;
+    --divfund: #62636D;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.top {
+    background-color: var(--cor1);
+    height: 35px;
+    width: 100%;
+}
+
+.top ul {
+    padding-top: 7px;
+    margin-left: 10%;
+}
+
+.top p {
+    padding-left: 60%;
+    display: inline;
+    color: var(--corfon1);
+    font-size: 0.75em;
+}
+
+.top strong {
+    display: inline;
+    color: var(--corfon2);
+    font-size: 1.5em;
+}
+
+.top li { 
+    list-style-type: none; 
+    color: var(--corfon1);
+    display: inline;
+    padding-right: 15px;
+    font-size: 0.75em;
+}
+
+.header1 {
+    background-color: var(--cor2);
+    height: 90px;
+    padding-top: 15px;
+    display: flex;
+}
+
+.logo {
+    margin-left: 10%;
+    width: 40%;
+}
+
+.header1 h1 {
+    color: var(--corfon1);
+    letter-spacing: 2px;
+}
+
+.header1 p {
+    color: var(--corfon1);
+    line-height: 0.7;
+    letter-spacing: 1px;
+}
+
+.logo > h1 > strong {
+    color: var(--corfon2);
+}
+
+.header1 nav {
+    display: inline;
+    padding-top: 20px;
+    padding-left: 5%;
+}
+
+.header1 nav > a {
+    text-decoration: none;
+    padding: 8px 12px;
+    margin: 0px 11px;
+    color: var(--corfon1);
+}
+
+.home {
+    background-color: var(--divfund);
+    border-radius: 15%;
+}
+
+.principal {
+    background-color: var(--corbacksite);
+    display: flex;
+}
+
+.principal1 {
+    padding: 90px 10%;
+    height: 180px;
+}
+
+.principal > .principal1 > .transform {
+    color: var(--corfon2);
+    text-decoration: none;
+    font-size: 3em;
+    line-height: 0.0;
+}
+
+.principal > .principal1 > h1 {
+    color: var(--corfon1);
+    font-size: 5em;
+}
+
+.principal > .principal1 > p {
+    width: 300px;
+    font-size: 0.9em;
+    color: var(--divfund);
+}
+
+.principal1 > button {
+    margin-top: 30px;
+    width: 150px;
+    padding: 15px 0px;
+    border-radius: 9px;
+    background-color: var(--corfon2);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.514);
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+}
+
+.principal img {
+    width: 600px;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 50px;
+    display: inline;
+}
+
+.principal1 div {
+    display: flex;
+    flex-direction: row;
+}
+
+.follow {
+    background-color: var(--cor3);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.follow > img {
+    margin-left: 10%;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.follow > p {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.follow > button {
+    margin-top: 35px;
+    margin-left: 45%;
+    height: 35px;
+    width: 150px;
+    background-color: var(--divfund);
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.514);
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+}
+
+.secundario {
+    background-color: var(--corbacksite);
+    display: flex;
+}
+
+.sec {
+    background-color: var(--divfund);
+    width: 280px;
+    margin-top: 50px;
+    margin-left: 10%;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.514);
+}
+
+.sec h1 {
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    line-height: 1.1;
+    font-size: 1.3em;
+}
+
+.sec > h1 > strong {
+    font-size: 1.8em;
+}
+
+.sec > p {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+    font-size: 0.9em;
+    color: rgb(219, 208, 208);
+}
+
+.terceiro {
+    background-color: var(--corbacksite);
+    padding-top: 40px;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.terceiro1 {
+    border: 1px;
+    margin-left: 10%;
+    width: 705px;
+    border: 2px solid var(--cor3);
+    border-top: 0px solid white;
+    border-left: 0px solid white;
+    border-bottom: 0px solid white;
+}
+
+.terceiro1 > h1 {
+    color: white;
+    font-size: 1.6em;
+    letter-spacing: 2px;
+}
+
+.terceiro1 > h1 > strong {
+    color: var(--corfon2);
+    letter-spacing: 2px;
+}
+
+.news {
+    display: flex;
+    width: 700px;
+}
+
+.news img {
+    width: 200px;
+    margin-top: 40px;
+}
+
+.text h1 {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 1.3em;
+    color: white;
+}
+
+.news p {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: rgb(153, 152, 152);
+}
+
+.terceiro2 {
+    padding-left: 4%;
+}
+
+.terceiro2 > h1{
+    color: white;
+    font-size: 1.6em;
+    letter-spacing: 2px;
+}
+
+.terceiro2 > h1 > strong {
+    color: var(--corfon2);
+    letter-spacing: 2px;
+}
+
+.terceiro2 > ul {
+    margin-top: 15px;
+    list-style-position: inside;
+    color: white;
+    font-size: 0.9em;
+    list-style-type: "🔛";
+    line-height: 1.8;
+}
+
+.terceiro3 {
+    padding-top: 80px;
+}
+
+.terceiro3 > h1{
+    font-size: 1.6em;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.terceiro3 > h1 > strong {
+    color: var(--corfon2);
+    letter-spacing: 2px;
+}
+
+.terceiro3 > .txt {
+    width: 400px;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: var(--divfund);
+    text-align: justify;
+}
+
+.autor {
+    text-align: right;
+    color: var(--divfund);
+}
+
+.bt {
+    margin-top: 30px;
+    height: 40px;
+    width: 140px;
+    background-color: var(--divfund);
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.651);
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.aside {
+    display: flex;
+    background-color: var(--cor2);
+    height: 350px;
+}
+
+.title {
+    width: 100%;
+    height: 20px;
+    background-color: var(--cor2);
+    display: flex;
+    padding-left: 10%;
+    padding-top: 60px;
+}
+
+.title1 {
+    color: white;
+    font-size: 1.4em;
+    letter-spacing: 1.2px;
+}
+
+.title1 > strong {
+    color: var(--corfon2);
+}
+
+.title2 {
+    padding-left: 09%;
+    color: white;
+    font-size: 1.4em;
+    letter-spacing: 1.2px;
+}
+
+.title2 > strong {
+    color: var(--corfon2);
+}
+
+.title3 {
+    padding-left: 9%;
+    color: white;
+    font-size: 1.4em;
+    letter-spacing: 1.2px;
+}
+
+.title3 > strong {
+    color: var(--corfon2);
+}
+
+.title4 {
+    padding-left: 14%;
+    color: white;
+    font-size: 1.4em;
+    letter-spacing: 1.2px;
+}
+
+.title4 > strong {
+    color: var(--corfon2);
+}
+
+.about {
+    padding-left: 10%;
+}
+
+.me {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 200px;
+}
+
+.me1 {
+    display: flex;
+}
+
+.me img {
+    width: 80px;
+    height: 60px;
+}
+
+.me p {
+    color: rgb(100, 97, 97);
+    font-size: 14px;
+}
+
+.navegacao {
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.navegacao > p {
+    color: white;
+    width: 230px;
+    font-size: 0.9em;
+    margin-top: 3px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    border: 1px solid var(--cor3);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.arquivos {
+    margin-top: 20px;
+    padding-left: 22px;
+}
+
+.arquivos > p {
+    color: white;
+    width: 250px;
+    font-size: 0.9em;
+    margin-top: 3px;
+    padding-bottom: 5px;
+    border: 1px solid var(--cor3);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.arquivos > p > strong {
+    color: var(--corfon2);
+    font-size: 0.9em;
+}
+
+.comentarios {
+    margin-top: 20px;
+    padding-left: 32px;
+    width: 250px;
+}
+
+.comentarios img {
+    width: 50px;
+}
+
+.com1 {
+    display: flex;
+}
+
+.com2 {
+    padding-left: 10px;
+}
+
+.com1 > .com2 > p {
+    color: var(--corfon2);
+    font-size: 0.9em;
+}
+
+.com1 > .com2 > p > strong {
+    font-size: 0.8em;
+    color: rgb(175, 171, 171);
+}
+
+.comentarios > p {
+    padding-top: 10px;
+    padding-bottom: 17px;
+    font-size: 0.9em;
+    color: rgb(175, 171, 171);
+    border: 1px solid var(--cor3);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.com3 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.com4 {
+    padding-left: 10px;
+}
+
+.com4 > p {
+    color: var(--corfon2);
+    font-size: 0.9em;
+}
+
+.com4 > p > strong {
+    font-size: 0.8em;
+    color: rgb(175, 171, 171);
+}
+
+footer {
+    height: 40px;
+    background-color: #090c11;
+    color: white;
+    font-size: 0.8em;
+    padding-top: 22px;
+    text-align: center;
+    box-shadow: 2px -2px 5px rgba(0, 0, 0, 0.521);
+}
